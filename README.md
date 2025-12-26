@@ -29,7 +29,7 @@ OPINION_MODEL
 │   └── Opinion_variance.csv
 │
 ├── models/
-│   └── paper1.nlogox
+│   └── opinion_model.nlogox
 │
 ├── paper/
 │   └── Paper_1_CI_Paula_Rosa.pdf
@@ -76,7 +76,7 @@ El tiempo evoluciona en pasos discretos (*ticks*), siguiendo un esquema de actua
 
 ## Modelos NetLogo
 
-* `models/paper1.nlogox`
+* `models/opinion_model.nlogox`
   Archivo de NetLogo con la configuración de **BehaviorSpace** utilizada para ejecutar los experimentos de simulación bajo diferentes condiciones iniciales (unimodales y bimodales).
 
 ---
@@ -127,7 +127,7 @@ El script `src/graph.py` procesa los archivos CSV generados por NetLogo y reprod
 
 ## Reproducibilidad
 
-1. Ejecutar el modelo en NetLogo utilizando el archivo `paper1.nlogox`.
+1. Ejecutar el modelo en NetLogo utilizando el archivo `opinion_model.nlogox`.
 2. Exportar los resultados de las simulaciones en formato CSV.
 3. Guardar los archivos en el directorio `data/`.
 4. Ejecutar el script `graph.py` para generar las figuras agregadas.
