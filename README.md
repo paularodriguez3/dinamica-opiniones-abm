@@ -10,7 +10,7 @@ El objetivo del estudio es analizar cómo resultados colectivos macroscópicos, 
 
 El artículo completo del trabajo se encuentra en:
 
-- `paper/Paper_1_CI_Paula_Rosa.pdf`
+- `paper/Dinamicas_opinion_modelo_ABM.pdf`
 
 En él se describen:
 - El contexto teórico y el estado del arte.
@@ -32,7 +32,7 @@ OPINION_MODEL
 │   └── opinion_model.nlogox
 │
 ├── paper/
-│   └── Paper_1_CI_Paula_Rosa.pdf
+│   └── Dinamicas_opinion_modelo_ABM.pdf
 │
 ├── results/
 │   ├── plots/
